@@ -9,9 +9,9 @@
 title: Cabral's Blog
 email: webmaster@cabral.eti.br
 description: > # this means to ignore newlines until "baseurl:"
-  Technology and sports, together.
+  No description yet. Still trying do figure out what this is.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "https://blog.cabral.eti.br" # the base hostname & protocol for your site
 twitter_username: cabral404
 github_username:  cabral404
 
