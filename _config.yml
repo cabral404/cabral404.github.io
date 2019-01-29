@@ -1,0 +1,39 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+url: "https://about.cabral.eti.br"
+exclude: ["README.md"] # files to exclude
+highlighter: rouge
+markdown: kramdown
+google_analytics: dbyll
+title: Fernando Cabral
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: Fernando Cabral
+
+description: Cabral ETI website
+author:
+  name: Fernando Cabral
+  email: fernando@cabral.eti.br
+  github: cabral404
+  twitter: cabral404
+  linkedin: fecabral
+  bio: SRE - DevOps
+  email_md5: 3dd936ae35edff1b7a2eae008cb7ecc1
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+# set it as url of an image
+# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+
+BASE_PATH:
+
+plugins:
+  - jekyll-paginate

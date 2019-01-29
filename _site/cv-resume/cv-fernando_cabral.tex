@@ -1,0 +1,30 @@
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass[a4paper]{cv}
+
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+\fontdir[fonts/]
+\colorlet{awesome}{awesome-red}
+\setbool{acvSectionColorHighlight}{false}
+
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+\name{Fernando Cabral F.}{Rosa}
+\position{Site Reliability Engineer - DevOps}
+\address{Santana de Parnaíba - SP - Brazil}
+
+\email{fernando@cabral.eti.br}
+\github{cabral404}
+\linkedin{fecabral}
+
+\begin{document}
+    \makecvheader
+    \makecvfooter
+        {\today}
+        {Fernando Cabral~~~·~~~Curriculum Vitae}
+    {\thepage}
+
+    \input{cv/summary.tex}
+    \input{cv/skills.tex}
+    \input{cv/experience.tex}
+    \input{cv/education.tex}
+\end{document}
